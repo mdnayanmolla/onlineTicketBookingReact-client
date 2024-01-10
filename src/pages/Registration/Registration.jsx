@@ -15,8 +15,8 @@ const Registration = () => {
               </div>
            </div>
            <div className='px-[2%] fixed bottom-4 left-0 w-full z-40'>
-                <Link to='/signup'> <button className='bg-[#dc3545]   rounded-md text-center w-full text-white py-4 hover:bg-[#c82333] duration-500'> CREATE AN ACCOUNT   </button></Link>
-                <Link to='/login'> <button className='bg-[#f5f3fe]   rounded-md text-center w-full text-[#63656c] py-4 mt-5 hover:bg-[#e2e6ea] duration-500'>Sign Up  </button></Link>
+                <Link to='/signup'> <button className='bg-[#dc3545]  text-sm rounded-md text-center w-full text-white py-3 hover:bg-[#c82333] duration-500'> CREATE AN ACCOUNT   </button></Link>
+                <Link to='/login'> <button className='bg-[#f5f3fe]  text-sm rounded-md text-center w-full text-[#63656c] py-3 mt-5 hover:bg-[#e2e6ea] duration-500'>Sign Up  </button></Link>
             </div>
         </div>
     );
