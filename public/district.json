@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+         "name": "Dhaka"
+
+    },
+    {
+        "id":2,
+         "name": "Madaripur"
+
+    },
+    {
+        "id":3,
+        "name": "Madaripur"
+
+    },
+    {
+        "id":4,
+        "name": "Madaripur"
+    },
+    {
+        "id":5,
+        "name": "Borishal"
+
+    },
+    {
+        "id":6,
+        "name": "Rangpur"
+
+    },
+    {
+        "id":7,
+        "name": "Cox's Bazar"
+
+    },
+    {
+        "id":8,
+        "name": "Sajek"
+
+    },
+    {
+        "id":4,
+        "name": "Bandarban"
+    },
+    {
+        "id":4,
+        "name": "Rajshahi"
+
+    }
+
+]
