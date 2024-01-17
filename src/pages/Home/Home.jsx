@@ -10,6 +10,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import Offer from "./Offer/Offer";
 import MenuBar from "../../component/MenuBar/MenuBar";
+import { Link } from "react-router-dom";
 // import FromSelect from "../../component/FromSelect/FromSelect";
 
 
@@ -112,13 +113,13 @@ const Home = () => {
                                   <input type="date"  {...register("date")} className="w-full focus:border-none focus:ring-0 focus:outline-none" /> 
                                 </div>
                             </div>
-                            <button type="submit" className='mt-7 text-sm bg-[#dc3545]   rounded-md text-center w-full text-white py-3 hover:bg-[#c82333] duration-500'>Search</button>
+                          <Link to='/busdetails'> <button  type="submit" className='mt-7 text-sm bg-[#dc3545]   rounded-md text-center w-full text-white py-3 hover:bg-[#c82333] duration-500'>Search</button></Link> 
                         </form>
                     </div>
                 </div>
             </div>
             <WhyChoose></WhyChoose>
-            <Offer></Offer>
+             <Offer></Offer>
             <MenuBar></MenuBar>
         </div>
     );

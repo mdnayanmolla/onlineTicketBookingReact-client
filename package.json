@@ -10,14 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flowbite": "^2.2.1",
+    "flowbite-react": "^0.7.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "npm": "^6.13.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.21.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-tabtab": "^2.0.0",
     "sort-by": "^1.2.0",
+    "styled-components": "^4.0.0",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
